@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                                <!-- Anything inside the tag itself <a name= "Like this"> is code. Anything outside the tag <a name="file2">Like this</a> is text and will be displayed on the webpage. -->
+    <title>Meme Madness</title>                                                                           <!-- Any and all white text, is text that will appear on the webpage. -->
+    <link rel="stylesheet" href="Main Page Style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="MM (Main Page).html">Home</a></li> <!-- Navigates to Home Page -->
+            <li><a href="MM (About Page).html">About</a></li> <!-- Navigates to About Page -->
+            <li><a href="MM (Contact Page).html">Contact</a></li> <!-- Navigates to Contact Page -->
+        </ul>
+    </nav>  
+    
+    <div class="title-container">
+        <img src="Gold.png" alt="Title" id="page-title">
+    </div>
+
+    <div class="main-content">                                                                          <!-- The term <div> stands for division. It is used to label the purpose of the code in between them. For example: <div id="header"> <h1>Welcome to my website</h1> -->
+        <button id="play-music" class="flame-button">Play Music</button>                                <!-- Note: You can have div tags within div tags. -->
+        <div class="circle-buttons">
+            <button id="generate-meme" class="circle-button">Generate Meme</button>
+            <button id="generate-story" class="circle-button">Generate Story</button>
+            <button id="generate-youtube-video" class="circle-button">Generate YouTube Video</button>
+        </div>
+        <div class="drag-save">
+            <div class="illuminati-container">
+                <img src="Illuminati.png" alt="Illuminati" class="illuminati-button">
+                <span class="illuminati-text">Drag meme here to save to device</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Audio Element for music -->
+    <audio id="background-music" src="Kick Me Boss.mp3" loop></audio>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="MM (Functions).js"></script>
+</body>
+</html>

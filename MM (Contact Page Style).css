@@ -1,0 +1,39 @@
+body {
+    background-image: url('Wallpaper3.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    color: #00ff00; /* Money green */
+    font-family: 'Comic Sans MS', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2, p {
+    margin: 10px 0;
+  }
+  
+  button {
+    background-color: #FFA500; /* Orange */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e07b00; /* Darker orange */
+  }
+  
+  a {
+    text-decoration: none;
+  }
